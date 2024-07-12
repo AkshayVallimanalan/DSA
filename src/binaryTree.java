@@ -10,12 +10,10 @@ public class binaryTree {
     }
 
     private Node root;
-
     public binaryTree(int val){
         Node newnode = new Node(val);
         root = newnode;
     }
-
     public void addToTree(int val){
         Node newnode = new Node(val);
         Node temp = root;
@@ -50,6 +48,6 @@ public class binaryTree {
         }
     }
     public void showTree(){
-
+        //Continue here!
     }
 }

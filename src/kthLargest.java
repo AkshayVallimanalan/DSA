@@ -9,7 +9,8 @@ public class kthLargest {
         this.k = k;
         this.minheap = new PriorityQueue<>();
         for(int num : nums){
-            minheap.add(num);
+            add(num);
+            //minheap.add(num) is not used.
         }
     }
 

@@ -10,6 +10,7 @@ public class LinkedList{
             this.next = next;
         }
     }
+    //Method to initialize linked list
     public LinkedList(int val){
         node headnode = new node(val, null);
         head = headnode;
