@@ -3,6 +3,7 @@ import datastructures.Queue;
 import datastructures.binaryTree;
 import datastructures.myStack;
 import algorithms.binarySearch;
+import algorithms.*;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -61,5 +62,9 @@ public class App {
         //Binary search
         int[] searcharr = {1, 3, 5, 8, 10, 14, 50, 79};
         binarySearch.BinarySearch(searcharr, 8);
+
+        //Selection sort
+        int[] minarr = {1, 3, 5, 8, 10, 14, 50, 79};
+        selectionSort.SelectionSort(minarr);
     }
 }
