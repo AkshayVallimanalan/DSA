@@ -1,3 +1,4 @@
+package datastructures;
 public class maxHeap {
     private int[] heap;
     private int maxSize;

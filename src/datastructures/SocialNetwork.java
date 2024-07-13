@@ -1,3 +1,4 @@
+package datastructures;
 import java.util.*;
 
 public class SocialNetwork extends graph{

@@ -1,3 +1,4 @@
+package datastructures;
 public class myStack {
     private class Node{
         private int val;

@@ -1,3 +1,4 @@
+package datastructures;
 public class LinkedList{
     private node head;
     private node tail = null;
