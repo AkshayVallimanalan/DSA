@@ -7,7 +7,7 @@ public class graph {
     graph(int v){
         //Initializing the adjLst
         adjLst = new HashMap<>();
-        
+
         for(int i = 0; i<v; i++){
             adjLst.put(i, new ArrayList<>());
         }
